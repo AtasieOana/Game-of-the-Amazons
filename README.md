@@ -1,5 +1,5 @@
 # Game of the Amazons
-**Project developed in Ptyhon, using MiniMax and Alpha-beta algorithms**
+**Project developed in Python, using MiniMax and Alpha-beta algorithms**
 
 ## Game description
 
