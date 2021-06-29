@@ -24,6 +24,7 @@ The game ends when one of the players has no moves, in which case the player los
 ## Features
 
 * The user chooses which symbol to play with.
+* The player can move his pieces and place the X, and, alternatively, the computer moves his pieces and places the X.
 * Display whose turn it is to move.
 * At the end of the game the winner is specified.
 * At each move the user can stop the game if he wants.
