@@ -1,2 +1,2 @@
-# Game-of-the-Amazons
- Game developed using pygame with min-max and alpha-beta algorithms
+# Game of the Amazons
+Project developed in Ptyhon, using Min-Max and Alpha-Beta algorithms
