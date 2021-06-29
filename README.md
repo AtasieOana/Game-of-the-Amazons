@@ -27,3 +27,8 @@ The game ends when one of the players has no moves, in which case the player los
 * Display whose turn it is to move.
 * At the end of the game the winner is specified.
 * At each move the user can stop the game if he wants.
+
+## Estimates used for MiniMax and Alpha-beta
+Because the goal of the game is to block the opponent and avoid own blocking, two ways of estimating the score were used:
+* the number of blocks accessible for MAX - the number of blocks accessible for MIN (the more MAX has more blocks accessible than MIN, the more it means that MIN is more blocked than MAX, which is an advantage for MAX);
+* cells that "belong" to MAX - cells that "belong" to MIN: a cell "belongs" to a player if he can reach it in a smaller number of moves than the opponent (when a player has faster access in one cell than the other, that cell is a place where the player cannot be blocked immediately by the opponent;  the more MAX cells there are, the harder it is to block).
