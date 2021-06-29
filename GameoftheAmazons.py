@@ -127,13 +127,16 @@ class Joc:
         textRect = text1.get_rect()
         textRect.center = (655, 250)
         self.__class__.display.blit(text1, textRect)
-        text2 = "the pieces: " + jucator
+        if jucator == "N":
+            text2 = "the black pieces"
+        else:
+            text2 = "the white pieces"
         font = pygame.font.Font('freesansbold.ttf', 25)
         text2 = font.render(text2, True, (0, 0, 139), (216, 191, 216))
         textRect = text2.get_rect()
         textRect.center = (650, 275)
         self.__class__.display.blit(text2, textRect)
-        text3 = "(A = whites, N = negrii)"
+        text3 = "(A = whites, N = blakes)"
         font = pygame.font.Font('freesansbold.ttf', 25)
         text3 = font.render(text3, True, (0, 0, 139), (216, 191, 216))
         textRect = text3.get_rect()
