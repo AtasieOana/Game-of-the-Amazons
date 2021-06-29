@@ -136,17 +136,11 @@ class Joc:
         textRect = text2.get_rect()
         textRect.center = (650, 275)
         self.__class__.display.blit(text2, textRect)
-        text3 = "(A = whites, N = blakes)"
-        font = pygame.font.Font('freesansbold.ttf', 25)
-        text3 = font.render(text3, True, (0, 0, 139), (216, 191, 216))
-        textRect = text3.get_rect()
-        textRect.center = (650, 300)
-        self.__class__.display.blit(text3, textRect)
         text4 = "Press the Q key to close the game"
         font = pygame.font.Font('freesansbold.ttf', 16)
         text4 = font.render(text4, True, (0, 0, 139), (216, 191, 216))
-        textRect = text3.get_rect()
-        textRect.center = (665, 350)
+        textRect = text4.get_rect()
+        textRect.center = (662, 305)
         self.__class__.display.blit(text4, textRect)
         pygame.display.flip()
 
